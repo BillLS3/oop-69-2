@@ -1,0 +1,38 @@
+Команды для регистрации ваших данных
+1) git config --global user.name "your_username"
+2) git config --global user.email "your_username@gmai.com"
+
+Команды только для одно проекта
+3) git init        | Инициализация Гита
+4) git remote add origin link_to_repository | Добавление репозитория
+
+
+Часто используемые команды
+1) git status                | Статус проекта
+2) git add .                 | Добавление файлов в буфер обмена
+3) git commit -m "lesson1"   | сохранение всего из буфера обмена
+4) git push origin master или main  | Отправка изменений в репозитории
+5) git branch                       | для просмотра веток
+6) git branch name_new_branch       | для для создание новой ветки
+7) git checkout name_branch
+                                    | Для переключения на указаную нами ветку
+7) git switch name_branch
+8) git switch -c  name_new_branch       | для для создание новой ветки и перехода на нее
+9) git restore . или путь к файлу       | Для того чтобы откатить изменения до последнего коммита
+10) git reset . или путь к файлу        | Для того что бы убрать из буфера обмена после команды git add
+11) git clone link
+
+production
+
+release-0.0.1
+
+test|stage
+
+develop
+
+feat/register
+
+"feat: register added #123"
+"fix: register bag #321"
+"hot-fix: register bag #321"
+"update: register logic #321"f
